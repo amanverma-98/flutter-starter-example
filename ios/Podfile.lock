@@ -1,0 +1,94 @@
+PODS:
+  - audioplayers_darwin (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - device_info_plus (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_secure_storage (6.0.0):
+    - Flutter
+  - flutter_tts (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - record_ios (1.1.0):
+    - Flutter
+  - runanywhere (0.15.9):
+    - Flutter
+  - runanywhere_llamacpp (0.15.9):
+    - Flutter
+    - runanywhere
+  - runanywhere_onnx (0.15.9):
+    - Flutter
+    - runanywhere
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite_darwin (0.0.4):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - audioplayers_darwin (from `.symlinks/plugins/audioplayers_darwin/darwin`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
+  - flutter_tts (from `.symlinks/plugins/flutter_tts/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - record_ios (from `.symlinks/plugins/record_ios/ios`)
+  - runanywhere (from `.symlinks/plugins/runanywhere/ios`)
+  - runanywhere_llamacpp (from `.symlinks/plugins/runanywhere_llamacpp/ios`)
+  - runanywhere_onnx (from `.symlinks/plugins/runanywhere_onnx/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite_darwin (from `.symlinks/plugins/sqflite_darwin/darwin`)
+
+EXTERNAL SOURCES:
+  audioplayers_darwin:
+    :path: ".symlinks/plugins/audioplayers_darwin/darwin"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  Flutter:
+    :path: Flutter
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
+  flutter_tts:
+    :path: ".symlinks/plugins/flutter_tts/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  record_ios:
+    :path: ".symlinks/plugins/record_ios/ios"
+  runanywhere:
+    :path: ".symlinks/plugins/runanywhere/ios"
+  runanywhere_llamacpp:
+    :path: ".symlinks/plugins/runanywhere_llamacpp/ios"
+  runanywhere_onnx:
+    :path: ".symlinks/plugins/runanywhere_onnx/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite_darwin:
+    :path: ".symlinks/plugins/sqflite_darwin/darwin"
+
+SPEC CHECKSUMS:
+  audioplayers_darwin: 4f9ca89d92d3d21cec7ec580e78ca888e5fb68bd
+  device_info_plus: 71ffc6ab7634ade6267c7a93088ed7e4f74e5896
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_secure_storage: 1ed9476fba7e7a782b22888f956cce43e2c62f13
+  flutter_tts: b88dbc8655d3dc961bc4a796e4e16a4cc1795833
+  path_provider_foundation: bb55f6dbba17d0dccd6737fe6f7f34fbd0376880
+  permission_handler_apple: 4ed2196e43d0651e8ff7ca3483a069d469701f2d
+  record_ios: f75fa1d57f840012775c0e93a38a7f3ceea1a374
+  runanywhere: 21ca431beadf0ef864a82e1b2218cfa94bcab6c8
+  runanywhere_llamacpp: a6ca257f0c66cfd00adc85fb2c2867c0b6eddc67
+  runanywhere_onnx: 10492f237e764c6ef887a297e7df5968ab66e3c6
+  shared_preferences_foundation: 7036424c3d8ec98dfe75ff1667cb0cd531ec82bb
+  sqflite_darwin: 20b2a3a3b70e43edae938624ce550a3cbf66a3d0
+
+PODFILE CHECKSUM: 99534f57bef85eeb3b29c18ad0330b6dd50370a4
+
+COCOAPODS: 1.16.2
