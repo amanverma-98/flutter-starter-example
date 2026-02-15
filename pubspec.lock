@@ -244,7 +244,7 @@ packages:
     source: hosted
     version: "6.3.3"
   http:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: http
       sha256: "87721a4a50b19c7f1d49001e51409bddc46303966ce89a65af4f4e6004896412"
@@ -511,26 +511,26 @@ packages:
     dependency: "direct main"
     description:
       name: runanywhere
-      sha256: e8864fcb0e2657a15003e3cb4ab0b7bbcea812a6173d406170fdbdb116fe3a8d
+      sha256: "93e6426b9e4775efa6f5d811524e42413700bf30f084de16dca33da3e2f2c669"
       url: "https://pub.dev"
     source: hosted
-    version: "0.15.11"
+    version: "0.16.0"
   runanywhere_llamacpp:
     dependency: "direct main"
     description:
       name: runanywhere_llamacpp
-      sha256: "85f27381145f674912e3051aaa2ce595b742c855fb1044356bfd90d218ceb043"
+      sha256: f1eef677d96783cc1352f5583f476e52609cf2e6f558752f3e7196e1c1574b6b
       url: "https://pub.dev"
     source: hosted
-    version: "0.15.11"
+    version: "0.16.0"
   runanywhere_onnx:
     dependency: "direct main"
     description:
       name: runanywhere_onnx
-      sha256: "5418bed54202f45cc9506bbcd5c2cea598e2accbfc00d3d4212dfeba5830502c"
+      sha256: "76ef22150a6a3bd8fc63f12459a8f8f7b56e767232abd36e630b5a2c9729874c"
       url: "https://pub.dev"
     source: hosted
-    version: "0.15.11"
+    version: "0.16.0"
   rxdart:
     dependency: transitive
     description:

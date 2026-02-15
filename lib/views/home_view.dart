@@ -6,6 +6,7 @@ import '../widgets/feature_card.dart';
 import 'chat_view.dart';
 import 'speech_to_text_view.dart';
 import 'text_to_speech_view.dart';
+import 'tool_calling_view.dart';
 import 'voice_pipeline_view.dart';
 
 class HomeView extends StatelessWidget {
@@ -97,6 +98,17 @@ class HomeView extends StatelessWidget {
                       onTap: () =>
                           _navigateTo(context, const VoicePipelineView()),
                     ).animate().fadeIn(delay: 400.ms).slideY(begin: 0.2),
+                    FeatureCard(
+                      title: 'Tools',
+                      subtitle: 'Function Calling',
+                      icon: Icons.build_rounded,
+                      gradientColors: const [
+                        AppColors.accentOrange,
+                        Color(0xFFEA580C),
+                      ],
+                      onTap: () =>
+                          _navigateTo(context, const ToolCallingView()),
+                    ).animate().fadeIn(delay: 500.ms).slideY(begin: 0.2),
                   ]),
                 ),
               ),
