@@ -9,6 +9,7 @@ import '../services/model_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/model_loader_widget.dart';
 import '../widgets/chat_message_bubble.dart';
+import '../models/chat_models.dart';
 
 class ChatView extends StatefulWidget {
   const ChatView({super.key});
@@ -352,24 +353,4 @@ class _ChatViewState extends State<ChatView> {
       }
     });
   }
-}
-
-class ChatMessage {
-  final String text;
-  final bool isUser;
-  final DateTime timestamp;
-  final double? tokensPerSecond;
-  final int? totalTokens;
-  final bool isError;
-  final bool wasCancelled;
-
-  ChatMessage({
-    required this.text,
-    required this.isUser,
-    required this.timestamp,
-    this.tokensPerSecond,
-    this.totalTokens,
-    this.isError = false,
-    this.wasCancelled = false,
-  });
 }

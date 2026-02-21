@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 import '../theme/app_theme.dart';
-import '../views/chat_view.dart';
+import '../models/chat_models.dart';
 
 class ChatMessageBubble extends StatelessWidget {
-  final ChatMessage message;
+  final BaseChatMessage message;
   final bool isStreaming;
 
   const ChatMessageBubble({
@@ -28,13 +28,17 @@ class ChatMessageBubble extends StatelessWidget {
               width: 36,
               height: 36,
               decoration: BoxDecoration(
-                gradient: const LinearGradient(
-                  colors: [AppColors.accentCyan, AppColors.accentViolet],
+                gradient: LinearGradient(
+                  colors: message is ChatMessage && (message as ChatMessage).isAriaMessage
+                      ? [AppColors.accentPink, AppColors.accentViolet]
+                      : [AppColors.accentCyan, AppColors.accentViolet],
                 ),
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: const Icon(
-                Icons.auto_awesome_rounded,
+              child: Icon(
+                message is ChatMessage && (message as ChatMessage).isAriaMessage
+                    ? Icons.favorite_rounded
+                    : Icons.auto_awesome_rounded,
                 color: Colors.white,
                 size: 18,
               ),

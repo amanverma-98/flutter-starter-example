@@ -8,6 +8,7 @@ import 'speech_to_text_view.dart';
 import 'text_to_speech_view.dart';
 import 'tool_calling_view.dart';
 import 'voice_pipeline_view.dart';
+import 'aria_view.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -55,6 +56,16 @@ class HomeView extends StatelessWidget {
                     childAspectRatio: 0.85,
                   ),
                   delegate: SliverChildListDelegate([
+                    FeatureCard(
+                      title: 'ARIA',
+                      subtitle: 'Wellness Companion',
+                      icon: Icons.favorite_rounded,
+                      gradientColors: const [
+                        AppColors.accentPink,
+                        Color(0xFFDB2777),
+                      ],
+                      onTap: () => _navigateTo(context, const AriaView()),
+                    ).animate().fadeIn(delay: 50.ms).slideY(begin: 0.2),
                     FeatureCard(
                       title: 'Chat',
                       subtitle: 'LLM Text Generation',
@@ -161,15 +172,15 @@ class HomeView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'RunAnywhere',
+                    'ARIA & RunAnywhere',
                     style: Theme.of(context).textTheme.headlineLarge?.copyWith(
                           letterSpacing: -1,
                         ),
                   ),
                   Text(
-                    'Flutter SDK Starter',
+                    'Wellness AI Companion',
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          color: AppColors.accentCyan,
+                          color: AppColors.accentPink,
                           fontWeight: FontWeight.w500,
                         ),
                   ),
